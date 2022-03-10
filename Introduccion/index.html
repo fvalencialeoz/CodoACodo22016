@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posts y Comentarios</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      >
+
+      <section class="posts-container">
+        <div>
+          <h1>Posts</h1>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./imgcard.jpg" alt="" class="imgCard show" />
+            <div class="card-header">
+              <h2>Titulo del Post</h2>
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, doloremque, eaque, eius, eveniet fugiat ipsam
+                laudantium nam natus neque nisi nostrum obcaecati perferendis
+                quae quas quisquam quod ratione rem reprehenderit sunt
+                temporibus velit voluptate.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="card">
+            <img src="./imgcard.jpg" alt="" class="imgCard show" />
+            <div class="card-header">
+              <h2>Titulo del Post</h2>
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, doloremque, eaque, eius, eveniet fugiat ipsam
+                laudantium nam natus neque nisi nostrum obcaecati perferendis
+                quae quas quisquam quod ratione rem reprehenderit sunt
+                temporibus velit voluptate.
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <div style="margin-top: 20px">
+        <hr />
+      </div>
+
+      <section>
+        <div>
+          <form>
+            <div class="form-group">
+              <label for="title">Titulo</label>
+              <input
+                type="text"
+                class="title"
+                id="title"
+                name="title"
+                placeholder="Titulo"
+              />
+            </div>
+            <div class="form-group">
+              <label for="content">Contenido</label>
+              <textarea
+                class="content"
+                id="content"
+                name="content"
+                rows="3"
+              ></textarea>
+            </div>
+            <input type="button" class="btn" value="Agregar Post" />
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
